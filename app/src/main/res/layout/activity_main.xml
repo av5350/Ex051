@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="57"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num5"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num6"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:autoSizeTextType="uniform"
+                android:inputType="number"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="12"
+                app:srcCompat="@drawable/button_unknown" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/successIB3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num3"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num4"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:autoSizeTextType="uniform"
+                android:inputType="number"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="12"
+                app:srcCompat="@drawable/button_unknown" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/successIB2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num1"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="num2"
+                android:autoSizeTextType="uniform"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:autoSizeTextType="uniform"
+                android:inputType="number"
+                android:textColor="#FFFFFF"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="12"
+                app:srcCompat="@drawable/button_unknown" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/successIB1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/clearGameIB"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="8"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/button_new_game" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="35" />
+
+</LinearLayout>
