@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void level2Check(View view) {
         if (num6.getText().toString().equals("num6")) {
-            if (num3.getText().toString() == "num3" && num4.getText().toString() == "num4") {
+            if (num3.getText().toString().equals("num3") && num4.getText().toString().equals("num4")) {
                 Toast.makeText(this, "Invalid level - try again", Toast.LENGTH_SHORT).show();
             } else {
                 String sum = input2.getText().toString();
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void level3Check(View view) {
         if (level3Limit == 1) {
-            if (num5.getText().toString() == "num5" && num6.getText().toString() == "num6") {
+            if (num5.getText().toString().equals("num5") && num6.getText().toString().equals("num6")) {
                 Toast.makeText(this, "Invalid level - try again", Toast.LENGTH_SHORT).show();
             } else {
                 String sum = input3.getText().toString();
@@ -125,9 +125,12 @@ public class MainActivity extends AppCompatActivity {
                         successIV3.setImageResource(R.drawable.button_false);
                     }
                     Toast.makeText(this, correctAnswers + "/3", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "You can start a new game!", Toast.LENGTH_SHORT).show();
+                }
+                if (!sum.isEmpty()) {
+                    level3Limit = 0;
                 }
             }
-            level3Limit = 0;
         }
         else {
             Toast.makeText(this, "You've already answered this level!", Toast.LENGTH_SHORT).show();

@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="57"
+        android:layout_weight="48"
         android:orientation="horizontal">
 
         <Space
@@ -28,17 +28,17 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0px"
-                android:layout_weight="5" />
+                android:layout_weight="3" />
 
             <TextView
                 android:id="@+id/num5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num5"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -50,10 +50,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num6"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -66,21 +66,9 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:autoSizeTextType="uniform"
+                android:hint="Enter sum"
                 android:inputType="number"
-                android:textColor="#FFFFFF"
-                android:hint="Enter sum" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2" />
-
-            <ImageView
-                android:id="@+id/successIV3"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="12"
-                app:srcCompat="@drawable/button_unknown" />
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -93,8 +81,20 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/button_check"
-                android:onClick="level3Check"/>
+                android:onClick="level3Check"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="11"
+                app:srcCompat="@drawable/button_unknown" />
 
             <Space
                 android:layout_width="match_parent"
@@ -116,17 +116,17 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0px"
-                android:layout_weight="5" />
+                android:layout_weight="3" />
 
             <TextView
                 android:id="@+id/num3"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num3"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -138,10 +138,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num4"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -154,21 +154,9 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:autoSizeTextType="uniform"
+                android:hint="Enter sum"
                 android:inputType="number"
-                android:textColor="#FFFFFF"
-                android:hint="Enter sum"/>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2" />
-
-            <ImageView
-                android:id="@+id/successIV2"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="12"
-                app:srcCompat="@drawable/button_unknown" />
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -181,8 +169,20 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/button_check"
-                android:onClick="level2Check"/>
+                android:onClick="level2Check"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="11"
+                app:srcCompat="@drawable/button_unknown" />
 
             <Space
                 android:layout_width="match_parent"
@@ -204,17 +204,17 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0px"
-                android:layout_weight="5" />
+                android:layout_weight="3" />
 
             <TextView
                 android:id="@+id/num1"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num1"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -226,10 +226,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="5"
+                android:autoSizeTextType="uniform"
                 android:gravity="center"
                 android:text="num2"
-                android:autoSizeTextType="uniform"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -242,21 +242,9 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:autoSizeTextType="uniform"
+                android:hint="Enter sum"
                 android:inputType="number"
-                android:textColor="#FFFFFF"
-                android:hint="Enter sum"/>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2" />
-
-            <ImageView
-                android:id="@+id/successIV1"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="12"
-                app:srcCompat="@drawable/button_unknown" />
+                android:textColor="#FFFFFF" />
 
             <Space
                 android:layout_width="match_parent"
@@ -269,8 +257,20 @@
                 android:layout_height="0px"
                 android:layout_weight="10"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/button_check"
-                android:onClick="level1Check"/>
+                android:onClick="level1Check"
+                app:srcCompat="@drawable/button_check" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/successIV1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="11"
+                app:srcCompat="@drawable/button_unknown" />
 
             <Space
                 android:layout_width="match_parent"
@@ -288,14 +288,14 @@
         android:id="@+id/clearGameIB"
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="8"
+        android:layout_weight="9"
         android:background="#00FFFFFF"
-        app:srcCompat="@drawable/button_new_game"
-        android:onClick="clearGame"/>
+        android:onClick="clearGame"
+        app:srcCompat="@drawable/button_new_game" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="35" />
+        android:layout_weight="43" />
 
 </LinearLayout>
